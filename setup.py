@@ -18,8 +18,8 @@ from setuptools import setup, find_packages  # noqa: H301
 #
 # prerequisite: setuptools
 # http://pypi.python.org/pypi/setuptools
-NAME = "fwallet"
-VERSION = "1.0.0"
+NAME = "f-wallet"
+VERSION = "0.1.0"
 PYTHON_REQUIRES = ">= 3.9"
 REQUIRES = [
     "urllib3 >= 2.1.0, < 3.0.0",
@@ -32,9 +32,9 @@ setup(
     name=NAME,
     version=VERSION,
     description="FWallet API",
-    author="OpenAPI Generator community",
-    author_email="team@openapitools.org",
-    url="",
+    author="FWallet",
+    author_email="support@fwallet.co.ug",
+    url="https://github.com/f-wallet/fwallet-python",
     keywords=["OpenAPI", "OpenAPI-Generator", "FWallet API"],
     install_requires=REQUIRES,
     packages=find_packages(exclude=["test", "tests"]),
